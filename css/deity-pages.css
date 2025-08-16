@@ -1,0 +1,760 @@
+/* Deity Pages Specific Styling */
+
+.deity-page-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background: url('../images/backgrounds/parchment-bg.jpg') repeat-y center;
+    background-size: 100% auto;
+    min-height: 100vh;
+    box-shadow: 0 0 30px rgba(0,0,0,0.3);
+}
+
+/* Breadcrumb Navigation */
+.breadcrumb-nav {
+    padding: 1rem 0;
+    font-family: 'Crimson Text', serif;
+    color: #654321;
+    border-bottom: 1px solid #d4af37;
+    margin-bottom: 2rem;
+}
+
+.breadcrumb-nav a {
+    color: #8b4513;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.breadcrumb-nav a:hover {
+    color: #d4af37;
+}
+
+/* Deity Header */
+.deity-header {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 3rem;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    position: relative;
+    overflow: hidden;
+}
+
+.deity-portrait {
+    position: relative;
+    text-align: center;
+}
+
+.portrait-image {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    border: 3px solid #d4af37;
+}
+
+.watercolor-overlay {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+    opacity: 0.3;
+    border-radius: 25px;
+    pointer-events: none;
+}
+
+.watercolor-good {
+    background: radial-gradient(circle at 30% 30%, #4a90e2 0%, transparent 50%),
+                radial-gradient(circle at 70% 70%, #7bb3f0 0%, transparent 50%);
+}
+
+.watercolor-evil {
+    background: radial-gradient(circle at 30% 30%, #d32f2f 0%, transparent 50%),
+                radial-gradient(circle at 70% 70%, #8b0000 0%, transparent 50%);
+}
+
+.watercolor-neutral {
+    background: radial-gradient(circle at 30% 30%, #6a9955 0%, transparent 50%),
+                radial-gradient(circle at 70% 70%, #8fb573 0%, transparent 50%);
+}
+
+.deity-title-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2rem;
+}
+
+.deity-name {
+    font-family: 'Cinzel', serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #8b4513;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    line-height: 1.1;
+}
+
+.deity-epithet {
+    font-family: 'Crimson Text', serif;
+    font-size: 1.8rem;
+    font-style: italic;
+    color: #654321;
+    margin-bottom: 2rem;
+    line-height: 1.3;
+}
+
+.deity-symbol-large {
+    text-align: center;
+    margin-top: auto;
+}
+
+.deity-symbol-large img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    filter: drop-shadow(3px 3px 6px rgba(0,0,0,0.4));
+}
+
+/* Content Layout */
+.content-columns {
+    display: grid;
+    grid-template-columns: 1fr 350px;
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
+
+.main-content {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 3rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.sidebar-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* Typography Enhancements */
+.drop-cap {
+    position: relative;
+}
+
+.drop-cap::first-letter {
+    font-family: 'Cinzel', serif;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #8b4513;
+    float: left;
+    line-height: 3rem;
+    margin: 0.5rem 0.5rem 0 0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+/* Divine Quote */
+.deity-quote {
+    background: linear-gradient(135deg, rgba(212, 175, 55, 0.1) 0%, rgba(244, 224, 77, 0.1) 100%);
+    border: 2px solid #d4af37;
+    border-radius: 15px;
+    padding: 2.5rem;
+    margin: 0 0 3rem 0;
+    position: relative;
+    font-style: italic;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #5d4e37;
+    font-family: 'Crimson Text', serif;
+}
+
+.deity-quote::before {
+    content: """;
+    font-size: 6rem;
+    color: #d4af37;
+    position: absolute;
+    top: -20px;
+    left: 30px;
+    font-family: 'Cinzel', serif;
+    line-height: 1;
+}
+
+.deity-quote::after {
+    content: """;
+    font-size: 6rem;
+    color: #d4af37;
+    position: absolute;
+    bottom: -40px;
+    right: 30px;
+    font-family: 'Cinzel', serif;
+    line-height: 1;
+}
+
+/* Lore Sections */
+.lore-section {
+    margin-bottom: 3rem;
+}
+
+.lore-section h3 {
+    font-size: 2rem;
+    color: #8b4513;
+    border-bottom: 3px solid #d4af37;
+    padding-bottom: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.lore-section p {
+    margin-bottom: 1.5rem;
+    text-align: justify;
+    line-height: 1.8;
+}
+
+/* Sacred Artifacts */
+.sacred-artifacts {
+    margin-bottom: 3rem;
+}
+
+.sacred-artifacts h3 {
+    font-size: 2rem;
+    color: #8b4513;
+    border-bottom: 3px solid #d4af37;
+    padding-bottom: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.artifact-card {
+    background: linear-gradient(135deg, rgba(255, 215, 0, 0.08) 0%, rgba(218, 165, 32, 0.08) 100%);
+    border: 2px solid #daa520;
+    border-radius: 12px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.artifact-card h4 {
+    color: #b8860b;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.artifact-type {
+    font-size: 0.9rem;
+    color: #8b6914;
+    font-style: italic;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.artifact-properties {
+    margin-top: 1.5rem;
+}
+
+.artifact-properties h5 {
+    color: #8b6914;
+    margin-bottom: 1rem;
+}
+
+.artifact-properties ul {
+    list-style: none;
+    padding: 0;
+}
+
+.artifact-properties li {
+    margin-bottom: 0.8rem;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.artifact-properties li::before {
+    content: "⚜";
+    color: #daa520;
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+
+/* Worship Section */
+.worship-section {
+    margin-bottom: 3rem;
+}
+
+.worship-section h3 {
+    font-size: 2rem;
+    color: #8b4513;
+    border-bottom: 3px solid #d4af37;
+    padding-bottom: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.holy-days {
+    margin-top: 2rem;
+}
+
+.holy-day-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.holy-day-card {
+    background: rgba(255, 255, 255, 0.9);
+    border-left: 4px solid #4a90e2;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.holy-day-card h5 {
+    color: #2c5aa0;
+    margin-bottom: 0.5rem;
+}
+
+.holy-day-date {
+    font-size: 0.9rem;
+    color: #666;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Adventure Hooks */
+.adventure-hooks-section {
+    margin-bottom: 3rem;
+}
+
+.adventure-hooks-section h3 {
+    font-size: 2rem;
+    color: #8b4513;
+    border-bottom: 3px solid #d4af37;
+    padding-bottom: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.adventure-hook {
+    background: linear-gradient(135deg, rgba(74, 144, 226, 0.1) 0%, rgba(123, 179, 240, 0.1) 100%);
+    border-left: 5px solid #4a90e2;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 0 12px 12px 0;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.adventure-hook h4 {
+    color: #2c5aa0;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+/* Sidebar Styling */
+.stat-block {
+    background: #faf7ea;
+    border: 2px solid #8b4513;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.stat-block h3 {
+    color: #8b4513;
+    text-align: center;
+    border-bottom: 2px solid #d4af37;
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.stat-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgba(139, 69, 19, 0.1);
+}
+
+.stat-label {
+    font-weight: 600;
+    color: #654321;
+}
+
+.stat-value {
+    color: #2c1810;
+    text-align: right;
+}
+
+/* Sidebar Cards */
+.worshiper-info,
+.divine-manifestations,
+.prayers-rituals,
+.relationships-section,
+.clerical-domains {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.worshiper-info h4,
+.divine-manifestations h4,
+.prayers-rituals h4,
+.relationships-section h4,
+.clerical-domains h4 {
+    color: #8b4513;
+    border-bottom: 2px solid #d4af37;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.worshiper-info ul,
+.divine-manifestations ul {
+    list-style: none;
+    padding: 0;
+}
+
+.worshiper-info li,
+.divine-manifestations li {
+    margin-bottom: 0.8rem;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.worshiper-info li::before,
+.divine-manifestations li::before {
+    content: "◆";
+    color: #d4af37;
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+
+/* Prayer Blocks */
+.prayer-block {
+    background: rgba(212, 175, 55, 0.1);
+    border-left: 4px solid #d4af37;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 0 8px 8px 0;
+}
+
+.prayer-block h5 {
+    color: #8b6914;
+    margin-bottom: 1rem;
+}
+
+.prayer-text {
+    font-style: italic;
+    color: #5d4e37;
+    line-height: 1.6;
+}
+
+/* Relationship Cards */
+.relationship-card {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-left: 4px solid #d4af37;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.relationship-card.ally {
+    border-left-color: #4a90e2;
+    background: linear-gradient(135deg, rgba(74, 144, 226, 0.05) 0%, rgba(255, 255, 255, 0.9) 100%);
+}
+
+.relationship-card.enemy {
+    border-left-color: #d32f2f;
+    background: linear-gradient(135deg, rgba(211, 47, 47, 0.05) 0%, rgba(255, 255, 255, 0.9) 100%);
+}
+
+.relationship-card.neutral {
+    border-left-color: #6a9955;
+    background: linear-gradient(135deg, rgba(106, 153, 85, 0.05) 0%, rgba(255, 255, 255, 0.9) 100%);
+}
+
+.relationship-card.complex {
+    border-left-color: #f57c00;
+    background: linear-gradient(135deg, rgba(245, 124, 0, 0.05) 0%, rgba(255, 255, 255, 0.9) 100%);
+}
+
+.relationship-card h5 {
+    color: #8b4513;
+    margin-bottom: 0.5rem;
+}
+
+.relationship-type {
+    font-size: 0.8rem;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+/* Domain Blocks */
+.domain-block {
+    background: rgba(139, 69, 19, 0.05);
+    border-radius: 6px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid rgba(139, 69, 19, 0.2);
+}
+
+.domain-block h5 {
+    color: #8b4513;
+    margin-bottom: 1rem;
+}
+
+/* Footer Navigation */
+.deity-footer {
+    margin-top: 4rem;
+    padding: 2rem 0;
+    border-top: 3px solid #8b4513;
+}
+
+.deity-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.nav-link {
+    background: linear-gradient(135deg, #8b4513 0%, #a0522d 100%);
+    color: white;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+}
+
+.nav-link:hover {
+    background: linear-gradient(135deg, #a0522d 0%, #8b4513 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.nav-link.home {
+    background: linear-gradient(135deg, #6a9955 0%, #8fb573 100%);
+}
+
+.nav-link.home:hover {
+    background: linear-gradient(135deg, #8fb573 0%, #6a9955 100%);
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .content-columns {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .sidebar-content {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .deity-header {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        text-align: center;
+    }
+    
+    .deity-title-block {
+        padding-left: 0;
+    }
+    
+    .deity-name {
+        font-size: 2.5rem;
+    }
+    
+    .deity-epithet {
+        font-size: 1.4rem;
+    }
+    
+    .portrait-image {
+        height: 250px;
+    }
+    
+    .main-content {
+        padding: 2rem;
+    }
+    
+    .holy-day-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .deity-navigation {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .sidebar-content {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .deity-name {
+        font-size: 2rem;
+    }
+    
+    .deity-epithet {
+        font-size: 1.2rem;
+    }
+    
+    .main-content {
+        padding: 1.5rem;
+    }
+    
+    .deity-page-container {
+        padding: 0 10px;
+    }
+    
+    .deity-quote::before,
+    .deity-quote::after {
+        font-size: 4rem;
+    }
+    
+    .drop-cap::first-letter {
+        font-size: 3rem;
+        line-height: 2.5rem;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .deity-page-container {
+        box-shadow: none;
+        background: white;
+    }
+    
+    .breadcrumb-nav,
+    .deity-footer {
+        display: none;
+    }
+    
+    .content-columns {
+        grid-template-columns: 1fr;
+    }
+    
+    .sidebar-content {
+        display: block;
+        columns: 2;
+        column-gap: 2rem;
+    }
+    
+    .adventure-hook,
+    .artifact-card,
+    .holy-day-card,
+    .relationship-card,
+    .domain-block {
+        break-inside: avoid;
+    }
+}
+
+/* Animation Effects */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.deity-header,
+.main-content,
+.sidebar-content > * {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+.deity-header {
+    animation-delay: 0.1s;
+}
+
+.main-content {
+    animation-delay: 0.2s;
+}
+
+.sidebar-content > *:nth-child(1) { animation-delay: 0.3s; }
+.sidebar-content > *:nth-child(2) { animation-delay: 0.4s; }
+.sidebar-content > *:nth-child(3) { animation-delay: 0.5s; }
+.sidebar-content > *:nth-child(4) { animation-delay: 0.6s; }
+.sidebar-content > *:nth-child(5) { animation-delay: 0.7s; }
+.sidebar-content > *:nth-child(6) { animation-delay: 0.8s; }
+
+/* Hover Effects */
+.artifact-card:hover,
+.adventure-hook:hover,
+.holy-day-card:hover,
+.relationship-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    transition: all 0.3s ease;
+}
+
+/* Focus States for Accessibility */
+.nav-link:focus,
+.breadcrumb-nav a:focus {
+    outline: 2px solid #d4af37;
+    outline-offset: 2px;
+}
+
+/* Custom Scrollbar */
+.deity-page-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.deity-page-container::-webkit-scrollbar-track {
+    background: rgba(139, 69, 19, 0.1);
+}
+
+.deity-page-container::-webkit-scrollbar-thumb {
+    background: #8b4513;
+    border-radius: 4px;
+}
+
+.deity-page-container::-webkit-scrollbar-thumb:hover {
+    background: #a0522d;
+}
+
+/* Special Effects for Different Deity Types */
+.deity-page-container.good-deity {
+    background-image: 
+        radial-gradient(circle at 20% 80%, rgba(74, 144, 226, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(123, 179, 240, 0.1) 0%, transparent 50%),
+        url('../images/backgrounds/parchment-bg.jpg');
+}
+
+.deity-page-container.evil-deity {
+    background-image: 
+        radial-gradient(circle at 20% 80%, rgba(211, 47, 47, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(139, 0, 0, 0.1) 0%, transparent 50%),
+        url('../images/backgrounds/parchment-bg.jpg');
+}
+
+.deity-page-container.neutral-deity {
+    background-image: 
+        radial-gradient(circle at 20% 80%, rgba(106, 153, 85, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(143, 181, 115, 0.1) 0%, transparent 50%),
+        url('../images/backgrounds/parchment-bg.jpg');
+}

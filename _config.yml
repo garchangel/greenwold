@@ -1,0 +1,24 @@
+title: "The Divine Chronicles of The Greenwold"
+description: "A comprehensive guide to the deities of The Greenwold campaign setting"
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# GitHub Pages settings
+url: "https://garchangel.github.io"
+baseurl: "/greenwold"
+
+# Collections
+collections:
+  deities:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "deities"
+    values:
+      layout: "deity"

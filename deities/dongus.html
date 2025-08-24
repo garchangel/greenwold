@@ -1,1348 +1,336 @@
-/* Complex Deity Specific Styling (for morally complex good deities like Dongus) */
-.complex-deity .deity-name {
-    color: #2c5aa0;
-    text-shadow: 2px 2px 4px rgba(44, 90, 160, 0.3);
-}
-
-.complex-deity .deity-epithet {
-    color: #4a6fa5;
-}
-
-.watercolor-complex {
-    background: radial-gradient(circle at 30% 30%, #2c5aa0 0%, transparent 50%),
-                radial-gradient(circle at 70% 70%, #6a8caf 0%, transparent 50%);
-}
-
-.complex-quote {
-    background: linear-gradient(135deg, rgba(44, 90, 160, 0.1) 0%, rgba(106, 140, 175, 0.1) 100%);
-    border: 2px solid #2c5aa0;
-    color: #1e3a5f;
-}
-
-.complex-quote::before,
-.complex-quote::after {
-    color: #2c5aa0;
-}
-
-/* Complex Artifacts */
-.complex-artifact {
-    background: linear-gradient(135deg, rgba(44, 90, 160, 0.08) 0%, rgba(70, 130, 180, 0.08) 100%);
-    border: 2px solid #4682b4;
-    box-shadow: 0 4px 15px rgba(44, 90, 160, 0.15);
-}
-
-.complex-artifact h4 {
-    color: #2c5aa0;
-}
-
-.complex-artifact .artifact-type {
-    color: #4a6fa5;
-}
-
-.complex-artifact .artifact-properties h5 {
-    color: #2c5aa0;
-}
-
-.complex-artifact .artifact-properties li::before {
-    content: "⚡";
-    color: #4682b4;
-}
-
-/* Teaching Principles */
-.teaching-principles {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 1.5rem;
-    margin-top: 2rem;
-}
-
-.complex-principle {
-    background: linear-gradient(135deg, rgba(44, 90, 160, 0.05) 0%, rgba(255, 255, 255, 0.9) 100%);
-    border: 2px solid #4682b4;
-    border-radius: 12px;
-    padding: 2rem;
-    text-align: center;
-    transition: all 0.3s ease;
-}
-
-.complex-principle:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 8px 25px rgba(44, 90, 160, 0.2);
-    border-color: #2c5aa0;
-}
-
-.complex-principle h5 {
-    color: #2c5aa0;
-    margin-bottom: 1rem;
-    font-size: 1.2rem;
-}
-
-/* Philosophy Section */
-.philosophy-section {
-    margin-bottom: 3rem;
-}
-
-.philosophy-section h3 {
-    font-size: 2rem;
-    color: #2c5aa0;
-    border-bottom: 3px solid #4682b4;
-    padding-bottom: 0.5rem;
-    margin-bottom: 2rem;
-}
-
-/* Transformation Section */
-.transformation-section {
-    margin-bottom: 3rem;
-    background: rgba(44, 90, 160, 0.05);
-    padding: 2rem;
-    border-radius: 12px;
-    border-left: 5px solid #4682b4;
-}
-
-.transformation-section h3 {
-    color: #2c5aa0;
-    margin-bottom: 1.5rem;
-}
-
-/* Complex Observances */
-.complex-observance {
-    background: rgba(44, 90, 160, 0.05);
-    border-left: 4px solid #4682b4;
-}
-
-.complex-observance h5 {
-    color: #2c5aa0;
-}
-
-/* Complex Adventure Hooks */
-.complex-hook {
-    background: linear-gradient(135deg, rgba(44, 90, 160, 0.1) 0%, rgba(70, 130, 180, 0.1) 100%);
-    border-left: 5px solid #4682b4;
-}
-
-.complex-hook h4 {
-    color: #2c5aa0;
-}
-
-/* Complex Sidebar Styling */
-.complex-stat-block {
-    background: #f8fafc;
-    border: 2px solid #4682b4;
-}
-
-.complex-stat-block h3 {
-    color: #2c5aa0;
-    border-bottom: 2px solid #4682b4;
-}
-
-.complex-worshipers {
-    background: rgba(44, 90, 160, 0.05);
-    border-left: 4px solid #4682b4;
-}
-
-.complex-worshipers h4 {
-    color: #2c5aa0;
-    border-bottom: 2px solid #4682b4;
-}
-
-.complex-worshipers li::before {
-    content: "⚔";
-    color: #4682b4;
-}
-
-/* Complex Manifestations */
-.complex-manifestations {
-    background: rgba(44, 90, 160, 0.05);
-    border-left: 4px solid #4682b4;
-}
-
-.complex-manifestations h4 {
-    color: #2c5aa0;
-    border-bottom: 2px solid #4682b4;
-}
-
-.complex-manifestations li::before {
-    content: "👁";
-    color: #4682b4;
-}
-
-/* Complex Prayers */
-.complex-prayers {
-    background: rgba(70, 130, 180, 0.1);
-    border: 2px solid #4682b4;
-    border-radius: 12px;
-}
-
-.complex-prayers h4 {
-    color: #2c5aa0;
-    border-bottom: 2px solid #4682b4;
-    text-align: center;
-}
-
-.complex-prayers .prayer-block {
-    background: rgba(44, 90, 160, 0.1);
-    border-left: 4px solid #2c5aa0;
-}
-
-.complex-prayers .prayer-block h5 {
-    color: #2c5aa0;
-}
-
-.complex-prayers .prayer-text {
-    color: #1e3a5f;
-}
-
-/* Complex Relationships */
-.complex-relationships {
-    background: rgba(44, 90, 160, 0.05);
-    border: 2px solid #4682b4;
-}
-
-.complex-relationships h4 {
-    color: #2c5aa0;
-    border-bottom: 2px solid #4682b4;
-}
-
-/* Domain Powers */
-.domain-powers {
-    background: rgba(70, 130, 180, 0.1);
-    border: 2px solid #4682b4;
-    border-radius: 12px;
-}
-
-.domain-powers h4 {
-    color: #2c5aa0;
-    border-bottom: 2px solid #4682b4;
-    text-align: center;
-}
-
-.domain-powers .domain-block {
-    background: rgba(44, 90, 160, 0.05);
-    border: 1px solid rgba(44, 90, 160, 0.3);
-}
-
-.domain-powers .domain-block h5 {
-    color: #2c5aa0;
-}
-
-/* Complex Deity Page Background */
-.complex-deity .deity-page-container {
-    background-image: 
-        radial-gradient(circle at 20% 80%, rgba(44, 90, 160, 0.08) 0%, transparent 50%),
-        radial-gradient(circle at 80% 20%, rgba(70, 130, 180, 0.08) 0%, transparent 50%),
-        url/* Evil Deity Specific Styling */
-.evil-deity .deity-name {
-    color: #8b0000;
-    text-shadow: 2px 2px 4px rgba(139, 0, 0, 0.5);
-}
-
-.evil-deity .deity-epithet {
-    color: #654321;
-}
-
-.evil-quote {
-    background: linear-gradient(135deg, rgba(139, 0, 0, 0.1) 0%, rgba(211, 47, 47, 0.1) 100%);
-    border: 2px solid #8b0000;
-    color: #5d1a1a;
-}
-
-.evil-quote::before,
-.evil-quote::after {
-    color: #8b0000;
-}
-
-/* Cursed Artifacts */
-.cursed-artifact {
-    background: linear-gradient(135deg, rgba(139, 0, 0, 0.08) 0%, rgba(64, 0, 0, 0.08) 100%);
-    border: 2px solid #8b0000;
-    box-shadow: 0 4px 15px rgba(139, 0, 0, 0.2);
-}
-
-.cursed-artifact h4 {
-    color: #8b0000;
-}
-
-.cursed-artifact .artifact-type {
-    color: #654321;
-}
-
-.cursed-artifact .artifact-properties h5 {
-    color: #8b0000;
-}
-
-.cursed-artifact .artifact-properties li::before {
-    content: "☠";
-    color: #8b0000;
-}
-
-/* Dark Observances */
-.dark-observance-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1.5rem;
-    margin-top: 1.5rem;
-}
-
-.dark-observance-card {
-    background: rgba(139, 0, 0, 0.05);
-    border-left: 4px solid #8b0000;
-    padding: 1.5rem;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(139, 0, 0, 0.1);
-}
-
-.dark-observance-card h5 {
-    color: #8b0000;
-    margin-bottom: 0.5rem;
-}
-
-.observance-date {
-    font-size: 0.9rem;
-    color: #654321;
-    font-weight: 600;
-    margin-bottom: 1rem;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-}
-
-/* Dark Adventure Hooks */
-.dark-hook {
-    background: linear-gradient(135deg, rgba(139, 0, 0, 0.1) 0%, rgba(211, 47, 47, 0.1) 100%);
-    border-left: 5px solid #8b0000;
-}
-
-.dark-hook h4 {
-    color: #8b0000;
-}
-
-/* Doctrine Principles */
-.doctrine-principles {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1rem;
-    margin-top: 1.5rem;
-}
-
-.principle-card {
-    background: rgba(139, 0, 0, 0.05);
-    border: 1px solid rgba(139, 0, 0, 0.2);
-    border-radius: 8px;
-    padding: 1.5rem;
-    text-align: center;
-}
-
-.principle-card h5 {
-    color: #8b0000;
-    margin-bottom: 1rem;
-    font-size: 1.1rem;
-}
-
-/* Evil Sidebar Styling */
-.evil-stat-block {
-    background: #f5f5f5;
-    border: 2px solid #8b0000;
-}
-
-.evil-stat-block h3 {
-    color: #8b0000;
-    border-bottom: 2px solid #8b0000;
-}
-
-.evil-worshipers {
-    background: rgba(139, 0, 0, 0.05);
-    border-left: 4px solid #8b0000;
-}
-
-.evil-worshipers h4 {
-    color: #8b0000;
-    border-bottom: 2px solid #8b0000;
-}
-
-.evil-worshipers li::before {
-    content: "†";
-    color: #8b0000;
-}
-
-/* Corruption Signs */
-.corruption-signs {
-    background: rgba(139, 0, 0, 0.05);
-    border-left: 4px solid #8b0000;
-}
-
-.corruption-signs h4 {
-    color: #8b0000;
-    border-bottom: 2px solid #8b0000;
-}
-
-.corruption-signs li::before {
-    content: "⚠";
-    color: #d32f2f;
-}
-
-/* Whispered Temptations */
-.whispered-temptations {
-    background: rgba(64, 0, 0, 0.1);
-    border: 2px solid #8b0000;
-    border-radius: 12px;
-}
-
-.whispered-temptations h4 {
-    color: #8b0000;
-    border-bottom: 2px solid #8b0000;
-    text-align: center;
-}
-
-.temptation-intro {
-    font-style: italic;
-    color: #654321;
-    margin-bottom: 1.5rem;
-    text-align: center;
-}
-
-.temptation-list {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-.temptation-item {
-    background: rgba(139, 0, 0, 0.1);
-    border-left: 3px solid #8b0000;
-    padding: 1rem;
-    border-radius: 0 6px 6px 0;
-}
-
-.temptation-item h5 {
-    color: #8b0000;
-    margin-bottom: 0.5rem;
-    font-size: 1rem;
-}
-
-.temptation-item p {
-    color: #5d1a1a;
-    font-size: 0.9rem;
-    margin: 0;
-}
-
-/* Evil Relationships */
-.evil-relationships {
-    background: rgba(139, 0, 0, 0.05);
-    border: 2px solid #8b0000;
-}
-
-.evil-relationships h4 {
-    color: #8b0000;
-    border-bottom: 2px solid #8b0000;
-}
-
-/* Corruption Mechanics */
-.corruption-mechanics {
-    background: rgba(64, 0, 0, 0.1);
-    border: 2px solid #8b0000;
-    border-radius: 12px;
-}
-
-.corruption-mechanics h4 {
-    color: #8b0000;
-    border-bottom: 2px solid #8b0000;
-    text-align: center;
-}
-
-.mechanic-block {
-    background: rgba(139, 0, 0, 0.05);
-    border-radius: 6px;
-    padding: 1.5rem;
-    margin-bottom: 1.5rem;
-    border: 1px solid rgba(139, 0, 0, 0.2);
-}
-
-.mechanic-block h5 {
-    color: #8b0000;
-    margin-bottom: 1rem;
-}
-
-/* Dark Sections */
-.corruption-section {
-    margin-bottom: 3rem;
-}
-
-.corruption-section h3 {
-    font-size: 2rem;
-    color: #8b0000;
-    border-bottom: 3px solid #8b0000;
-    padding-bottom: 0.5rem;
-    margin-bottom: 2rem;
-}
-
-.dark-worship-section {
-    margin-bottom: 3rem;
-}
-
-.dark-worship-section h3 {
-    font-size: 2rem;
-    color: #8b0000;
-    border-bottom: 3px solid #8b0000;
-    padding-bottom: 0.5rem;
-    margin-bottom: 2rem;
-}
-
-.doctrine-section {
-    margin-bottom: 3rem;
-}
-
-.doctrine-section h3 {
-    font-size: 2rem;
-    color: #8b0000;
-    border-bottom: 3px solid #8b0000;
-    padding-bottom: 0.5rem;
-    margin-bottom: 2rem;
-}
-
-/* Evil Deity Page Background Override */
-.evil-deity .deity-page-container {
-    background-image: 
-        radial-gradient(circle at 20% 80%, rgba(139, 0, 0, 0.1) 0%, transparent 50%),
-        radial-gradient(circle at 80% 20%, rgba(64, 0, 0, 0.1) 0%, transparent 50%),
-        url('../images/backgrounds/parchment-bg.jpg');
-}
-
-/* Special Effects for Evil Pages */
-.evil-deity .cursed-artifact:hover {
-    box-shadow: 0 8px 25px rgba(139, 0, 0, 0.3);
-    border-color: #d32f2f;
-}
-
-.evil-deity .dark-hook:hover {
-    background: linear-gradient(135deg, rgba(139, 0, 0, 0.15) 0%, rgba(211, 47, 47, 0.15) 100%);
-}
-
-.evil-deity .principle-card:hover {
-    background: rgba(139, 0, 0, 0.1);
-    transform: translateY(-2px);
-    box-shadow: 0 4px 15px rgba(139, 0, 0, 0.2);
-    transition: all 0.3s ease;
-}
-
-/* Responsive adjustments for evil deity elements */
-@media (max-width: 768px) {
-    .doctrine-principles {
-        grid-template-columns: 1fr;
-    }
-    
-    .dark-observance-grid {
-        grid-template-columns: 1fr;
-    }
-    
-    .temptation-list {
-        gap: 0.5rem;
-    }
-    
-    .evil-deity .deity-name {
-        font-size: 2.5rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .evil-deity .deity-name {
-        font-size: 2rem;
-    }
-    
-    .principle-card,
-    .dark-observance-card,
-    .temptation-item {
-        padding: 1rem;
-    }
-}
-
-/* Animation delays for evil deity elements */
-.cursed-artifact:nth-child(1) { animation-delay: 0.1s; }
-.cursed-artifact:nth-child(2) { animation-delay: 0.2s; }
-.cursed-artifact:nth-child(3) { animation-delay: 0.3s; }
-
-.dark-hook:nth-child(1) { animation-delay: 0.1s; }
-.dark-hook:nth-child(2) { animation-delay: 0.2s; }
-.dark-hook:nth-child(3) { animation-delay: 0.3s; }
-.dark-hook:nth-child(4) { animation-delay: 0.4s; }
-
-.principle-card:nth-child(1) { animation-delay: 0.1s; }
-.principle-card:nth-child(2) { animation-delay: 0.2s; }
-.principle-card:nth-child(3) { animation-delay: 0.3s; }
-.principle-card:nth-child(4) { animation-delay: 0.4s; }
-.principle-card:nth-child(5) { animation-delay: 0.5s; }
-
-/* Print-specific styles for evil deity pages */
-@media print {
-    .evil-deity .cursed-artifact,
-    .evil-deity .dark-hook,
-    .evil-deity .principle-card {
-        break-inside: avoid;
-        background: white !important;
-        border-color: #333 !important;
-    }
-    
-    .evil-deity .deity-name,
-    .evil-deity h3,
-    .evil-deity h4,
-    .evil-deity h5 {
-        color: #333 !important;
-    }
-}/* Deity Pages Specific Styling */
-
-.deity-page-container {
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0 20px;
-    background: url('../images/backgrounds/parchment-bg.jpg') repeat-y center;
-    background-size: 100% auto;
-    min-height: 100vh;
-    box-shadow: 0 0 30px rgba(0,0,0,0.3);
-}
-
-/* Breadcrumb Navigation */
-.breadcrumb-nav {
-    padding: 1rem 0;
-    font-family: 'Crimson Text', serif;
-    color: #654321;
-    border-bottom: 1px solid #d4af37;
-    margin-bottom: 2rem;
-}
-
-.breadcrumb-nav a {
-    color: #8b4513;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.breadcrumb-nav a:hover {
-    color: #d4af37;
-}
-
-/* Deity Header */
-.deity-header {
-    display: grid;
-    grid-template-columns: 300px 1fr;
-    gap: 3rem;
-    margin-bottom: 3rem;
-    padding: 2rem;
-    background: rgba(255, 255, 255, 0.9);
-    border-radius: 15px;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
-    position: relative;
-    overflow: hidden;
-}
-
-.deity-portrait {
-    position: relative;
-    text-align: center;
-}
-
-.portrait-image {
-    width: 100%;
-    height: 350px;
-    object-fit: cover;
-    border-radius: 15px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
-    border: 3px solid #d4af37;
-}
-
-.watercolor-overlay {
-    position: absolute;
-    top: -20px;
-    left: -20px;
-    right: -20px;
-    bottom: -20px;
-    opacity: 0.3;
-    border-radius: 25px;
-    pointer-events: none;
-}
-
-.watercolor-good {
-    background: radial-gradient(circle at 30% 30%, #4a90e2 0%, transparent 50%),
-                radial-gradient(circle at 70% 70%, #7bb3f0 0%, transparent 50%);
-}
-
-.watercolor-evil {
-    background: radial-gradient(circle at 30% 30%, #d32f2f 0%, transparent 50%),
-                radial-gradient(circle at 70% 70%, #8b0000 0%, transparent 50%);
-}
-
-.watercolor-neutral {
-    background: radial-gradient(circle at 30% 30%, #6a9955 0%, transparent 50%),
-                radial-gradient(circle at 70% 70%, #8fb573 0%, transparent 50%);
-}
-
-.deity-title-block {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 2rem;
-}
-
-.deity-name {
-    font-family: 'Cinzel', serif;
-    font-size: 3.5rem;
-    font-weight: 700;
-    color: #8b4513;
-    margin-bottom: 1rem;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-    line-height: 1.1;
-}
-
-.deity-epithet {
-    font-family: 'Crimson Text', serif;
-    font-size: 1.8rem;
-    font-style: italic;
-    color: #654321;
-    margin-bottom: 2rem;
-    line-height: 1.3;
-}
-
-.deity-symbol-large {
-    text-align: center;
-    margin-top: auto;
-}
-
-.deity-symbol-large img {
-    width: 120px;
-    height: 120px;
-    object-fit: contain;
-    filter: drop-shadow(3px 3px 6px rgba(0,0,0,0.4));
-}
-
-/* Content Layout */
-.content-columns {
-    display: grid;
-    grid-template-columns: 1fr 350px;
-    gap: 3rem;
-    margin-bottom: 3rem;
-}
-
-.main-content {
-    background: rgba(255, 255, 255, 0.95);
-    padding: 3rem;
-    border-radius: 15px;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
-}
-
-.sidebar-content {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-}
-
-/* Typography Enhancements */
-.drop-cap {
-    position: relative;
-}
-
-.drop-cap::first-letter {
-    font-family: 'Cinzel', serif;
-    font-size: 4rem;
-    font-weight: 700;
-    color: #8b4513;
-    float: left;
-    line-height: 3rem;
-    margin: 0.5rem 0.5rem 0 0;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-}
-
-/* Divine Quote */
-.deity-quote {
-    background: linear-gradient(135deg, rgba(212, 175, 55, 0.1) 0%, rgba(244, 224, 77, 0.1) 100%);
-    border: 2px solid #d4af37;
-    border-radius: 15px;
-    padding: 2.5rem;
-    margin: 0 0 3rem 0;
-    position: relative;
-    font-style: italic;
-    text-align: center;
-    font-size: 1.2rem;
-    color: #5d4e37;
-    font-family: 'Crimson Text', serif;
-}
-
-.deity-quote::before {
-    content: """;
-    font-size: 6rem;
-    color: #d4af37;
-    position: absolute;
-    top: -20px;
-    left: 30px;
-    font-family: 'Cinzel', serif;
-    line-height: 1;
-}
-
-.deity-quote::after {
-    content: """;
-    font-size: 6rem;
-    color: #d4af37;
-    position: absolute;
-    bottom: -40px;
-    right: 30px;
-    font-family: 'Cinzel', serif;
-    line-height: 1;
-}
-
-/* Lore Sections */
-.lore-section {
-    margin-bottom: 3rem;
-}
-
-.lore-section h3 {
-    font-size: 2rem;
-    color: #8b4513;
-    border-bottom: 3px solid #d4af37;
-    padding-bottom: 0.5rem;
-    margin-bottom: 2rem;
-}
-
-.lore-section p {
-    margin-bottom: 1.5rem;
-    text-align: justify;
-    line-height: 1.8;
-}
-
-/* Sacred Artifacts */
-.sacred-artifacts {
-    margin-bottom: 3rem;
-}
-
-.sacred-artifacts h3 {
-    font-size: 2rem;
-    color: #8b4513;
-    border-bottom: 3px solid #d4af37;
-    padding-bottom: 0.5rem;
-    margin-bottom: 2rem;
-}
-
-.artifact-card {
-    background: linear-gradient(135deg, rgba(255, 215, 0, 0.08) 0%, rgba(218, 165, 32, 0.08) 100%);
-    border: 2px solid #daa520;
-    border-radius: 12px;
-    padding: 2rem;
-    margin-bottom: 2rem;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-}
-
-.artifact-card h4 {
-    color: #b8860b;
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
-}
-
-.artifact-type {
-    font-size: 0.9rem;
-    color: #8b6914;
-    font-style: italic;
-    margin-bottom: 1rem;
-    font-weight: 600;
-}
-
-.artifact-properties {
-    margin-top: 1.5rem;
-}
-
-.artifact-properties h5 {
-    color: #8b6914;
-    margin-bottom: 1rem;
-}
-
-.artifact-properties ul {
-    list-style: none;
-    padding: 0;
-}
-
-.artifact-properties li {
-    margin-bottom: 0.8rem;
-    position: relative;
-    padding-left: 1.5rem;
-}
-
-.artifact-properties li::before {
-    content: "⚜";
-    color: #daa520;
-    position: absolute;
-    left: 0;
-    font-weight: bold;
-}
-
-/* Worship Section */
-.worship-section {
-    margin-bottom: 3rem;
-}
-
-.worship-section h3 {
-    font-size: 2rem;
-    color: #8b4513;
-    border-bottom: 3px solid #d4af37;
-    padding-bottom: 0.5rem;
-    margin-bottom: 2rem;
-}
-
-.holy-days {
-    margin-top: 2rem;
-}
-
-.holy-day-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1.5rem;
-    margin-top: 1.5rem;
-}
-
-.holy-day-card {
-    background: rgba(255, 255, 255, 0.9);
-    border-left: 4px solid #4a90e2;
-    padding: 1.5rem;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-
-.holy-day-card h5 {
-    color: #2c5aa0;
-    margin-bottom: 0.5rem;
-}
-
-.holy-day-date {
-    font-size: 0.9rem;
-    color: #666;
-    font-weight: 600;
-    margin-bottom: 1rem;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-}
-
-/* Adventure Hooks */
-.adventure-hooks-section {
-    margin-bottom: 3rem;
-}
-
-.adventure-hooks-section h3 {
-    font-size: 2rem;
-    color: #8b4513;
-    border-bottom: 3px solid #d4af37;
-    padding-bottom: 0.5rem;
-    margin-bottom: 2rem;
-}
-
-.adventure-hook {
-    background: linear-gradient(135deg, rgba(74, 144, 226, 0.1) 0%, rgba(123, 179, 240, 0.1) 100%);
-    border-left: 5px solid #4a90e2;
-    padding: 2rem;
-    margin-bottom: 2rem;
-    border-radius: 0 12px 12px 0;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-}
-
-.adventure-hook h4 {
-    color: #2c5aa0;
-    margin-bottom: 1rem;
-    font-size: 1.3rem;
-}
-
-/* Sidebar Styling */
-.stat-block {
-    background: #faf7ea;
-    border: 2px solid #8b4513;
-    border-radius: 12px;
-    padding: 2rem;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-}
-
-.stat-block h3 {
-    color: #8b4513;
-    text-align: center;
-    border-bottom: 2px solid #d4af37;
-    padding-bottom: 1rem;
-    margin-bottom: 1.5rem;
-}
-
-.stat-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 1rem;
-    padding: 0.5rem 0;
-    border-bottom: 1px solid rgba(139, 69, 19, 0.1);
-}
-
-.stat-label {
-    font-weight: 600;
-    color: #654321;
-}
-
-.stat-value {
-    color: #2c1810;
-    text-align: right;
-}
-
-/* Sidebar Cards */
-.worshiper-info,
-.divine-manifestations,
-.prayers-rituals,
-.relationships-section,
-.clerical-domains {
-    background: rgba(255, 255, 255, 0.95);
-    border-radius: 12px;
-    padding: 2rem;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-}
-
-.worshiper-info h4,
-.divine-manifestations h4,
-.prayers-rituals h4,
-.relationships-section h4,
-.clerical-domains h4 {
-    color: #8b4513;
-    border-bottom: 2px solid #d4af37;
-    padding-bottom: 0.5rem;
-    margin-bottom: 1.5rem;
-    text-align: center;
-}
-
-.worshiper-info ul,
-.divine-manifestations ul {
-    list-style: none;
-    padding: 0;
-}
-
-.worshiper-info li,
-.divine-manifestations li {
-    margin-bottom: 0.8rem;
-    position: relative;
-    padding-left: 1.5rem;
-}
-
-.worshiper-info li::before,
-.divine-manifestations li::before {
-    content: "◆";
-    color: #d4af37;
-    position: absolute;
-    left: 0;
-    font-weight: bold;
-}
-
-/* Prayer Blocks */
-.prayer-block {
-    background: rgba(212, 175, 55, 0.1);
-    border-left: 4px solid #d4af37;
-    padding: 1.5rem;
-    margin-bottom: 1.5rem;
-    border-radius: 0 8px 8px 0;
-}
-
-.prayer-block h5 {
-    color: #8b6914;
-    margin-bottom: 1rem;
-}
-
-.prayer-text {
-    font-style: italic;
-    color: #5d4e37;
-    line-height: 1.6;
-}
-
-/* Relationship Cards */
-.relationship-card {
-    background: rgba(255, 255, 255, 0.9);
-    border-radius: 8px;
-    padding: 1.5rem;
-    margin-bottom: 1.5rem;
-    border-left: 4px solid #d4af37;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-.relationship-card.ally {
-    border-left-color: #4a90e2;
-    background: linear-gradient(135deg, rgba(74, 144, 226, 0.05) 0%, rgba(255, 255, 255, 0.9) 100%);
-}
-
-.relationship-card.enemy {
-    border-left-color: #d32f2f;
-    background: linear-gradient(135deg, rgba(211, 47, 47, 0.05) 0%, rgba(255, 255, 255, 0.9) 100%);
-}
-
-.relationship-card.neutral {
-    border-left-color: #6a9955;
-    background: linear-gradient(135deg, rgba(106, 153, 85, 0.05) 0%, rgba(255, 255, 255, 0.9) 100%);
-}
-
-.relationship-card.complex {
-    border-left-color: #f57c00;
-    background: linear-gradient(135deg, rgba(245, 124, 0, 0.05) 0%, rgba(255, 255, 255, 0.9) 100%);
-}
-
-.relationship-card h5 {
-    color: #8b4513;
-    margin-bottom: 0.5rem;
-}
-
-.relationship-type {
-    font-size: 0.8rem;
-    color: #666;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom: 1rem;
-    font-weight: 600;
-}
-
-/* Domain Blocks */
-.domain-block {
-    background: rgba(139, 69, 19, 0.05);
-    border-radius: 6px;
-    padding: 1.5rem;
-    margin-bottom: 1.5rem;
-    border: 1px solid rgba(139, 69, 19, 0.2);
-}
-
-.domain-block h5 {
-    color: #8b4513;
-    margin-bottom: 1rem;
-}
-
-/* Footer Navigation */
-.deity-footer {
-    margin-top: 4rem;
-    padding: 2rem 0;
-    border-top: 3px solid #8b4513;
-}
-
-.deity-navigation {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-.nav-link {
-    background: linear-gradient(135deg, #8b4513 0%, #a0522d 100%);
-    color: white;
-    text-decoration: none;
-    padding: 1rem 2rem;
-    border-radius: 25px;
-    font-weight: 600;
-    transition: all 0.3s ease;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 0.9rem;
-}
-
-.nav-link:hover {
-    background: linear-gradient(135deg, #a0522d 0%, #8b4513 100%);
-    transform: translateY(-2px);
-    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-}
-
-.nav-link.home {
-    background: linear-gradient(135deg, #6a9955 0%, #8fb573 100%);
-}
-
-.nav-link.home:hover {
-    background: linear-gradient(135deg, #8fb573 0%, #6a9955 100%);
-}
-
-/* Responsive Design */
-@media (max-width: 1200px) {
-    .content-columns {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-    }
-    
-    .sidebar-content {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        gap: 2rem;
-    }
-}
-
-@media (max-width: 768px) {
-    .deity-header {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-        text-align: center;
-    }
-    
-    .deity-title-block {
-        padding-left: 0;
-    }
-    
-    .deity-name {
-        font-size: 2.5rem;
-    }
-    
-    .deity-epithet {
-        font-size: 1.4rem;
-    }
-    
-    .portrait-image {
-        height: 250px;
-    }
-    
-    .main-content {
-        padding: 2rem;
-    }
-    
-    .holy-day-grid {
-        grid-template-columns: 1fr;
-    }
-    
-    .deity-navigation {
-        flex-direction: column;
-        gap: 1rem;
-    }
-    
-    .sidebar-content {
-        display: flex;
-        flex-direction: column;
-    }
-}
-
-@media (max-width: 480px) {
-    .deity-name {
-        font-size: 2rem;
-    }
-    
-    .deity-epithet {
-        font-size: 1.2rem;
-    }
-    
-    .main-content {
-        padding: 1.5rem;
-    }
-    
-    .deity-page-container {
-        padding: 0 10px;
-    }
-    
-    .deity-quote::before,
-    .deity-quote::after {
-        font-size: 4rem;
-    }
-    
-    .drop-cap::first-letter {
-        font-size: 3rem;
-        line-height: 2.5rem;
-    }
-}
-
-/* Print Styles */
-@media print {
-    .deity-page-container {
-        box-shadow: none;
-        background: white;
-    }
-    
-    .breadcrumb-nav,
-    .deity-footer {
-        display: none;
-    }
-    
-    .content-columns {
-        grid-template-columns: 1fr;
-    }
-    
-    .sidebar-content {
-        display: block;
-        columns: 2;
-        column-gap: 2rem;
-    }
-    
-    .adventure-hook,
-    .artifact-card,
-    .holy-day-card,
-    .relationship-card,
-    .domain-block {
-        break-inside: avoid;
-    }
-}
-
-/* Animation Effects */
-@keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translateY(30px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-.deity-header,
-.main-content,
-.sidebar-content > * {
-    animation: fadeInUp 0.6s ease-out;
-}
-
-.deity-header {
-    animation-delay: 0.1s;
-}
-
-.main-content {
-    animation-delay: 0.2s;
-}
-
-.sidebar-content > *:nth-child(1) { animation-delay: 0.3s; }
-.sidebar-content > *:nth-child(2) { animation-delay: 0.4s; }
-.sidebar-content > *:nth-child(3) { animation-delay: 0.5s; }
-.sidebar-content > *:nth-child(4) { animation-delay: 0.6s; }
-.sidebar-content > *:nth-child(5) { animation-delay: 0.7s; }
-.sidebar-content > *:nth-child(6) { animation-delay: 0.8s; }
-
-/* Hover Effects */
-.artifact-card:hover,
-.adventure-hook:hover,
-.holy-day-card:hover,
-.relationship-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
-    transition: all 0.3s ease;
-}
-
-/* Focus States for Accessibility */
-.nav-link:focus,
-.breadcrumb-nav a:focus {
-    outline: 2px solid #d4af37;
-    outline-offset: 2px;
-}
-
-/* Custom Scrollbar */
-.deity-page-container::-webkit-scrollbar {
-    width: 8px;
-}
-
-.deity-page-container::-webkit-scrollbar-track {
-    background: rgba(139, 69, 19, 0.1);
-}
-
-.deity-page-container::-webkit-scrollbar-thumb {
-    background: #8b4513;
-    border-radius: 4px;
-}
-
-.deity-page-container::-webkit-scrollbar-thumb:hover {
-    background: #a0522d;
-}
-
-/* Special Effects for Different Deity Types */
-.deity-page-container.good-deity {
-    background-image: 
-        radial-gradient(circle at 20% 80%, rgba(74, 144, 226, 0.1) 0%, transparent 50%),
-        radial-gradient(circle at 80% 20%, rgba(123, 179, 240, 0.1) 0%, transparent 50%),
-        url('../images/backgrounds/parchment-bg.jpg');
-}
-
-.deity-page-container.evil-deity {
-    background-image: 
-        radial-gradient(circle at 20% 80%, rgba(211, 47, 47, 0.1) 0%, transparent 50%),
-        radial-gradient(circle at 80% 20%, rgba(139, 0, 0, 0.1) 0%, transparent 50%),
-        url('../images/backgrounds/parchment-bg.jpg');
-}
-
-.deity-page-container.neutral-deity {
-    background-image: 
-        radial-gradient(circle at 20% 80%, rgba(106, 153, 85, 0.1) 0%, transparent 50%),
-        radial-gradient(circle at 80% 20%, rgba(143, 181, 115, 0.1) 0%, transparent 50%),
-        url('../images/backgrounds/parchment-bg.jpg');
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dongus Peardrum - The Dragon's Blade | The Greenwold</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/dnd-theme.css">
+    <link rel="stylesheet" href="../css/deity-pages.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body class="complex-deity">
+    <div class="deity-page-container complex-deity">
+        <nav class="breadcrumb-nav">
+            <a href="../index.html">The Divine Chronicles</a> &gt; <span>Dongus Peardrum</span>
+        </nav>
+
+        <header class="deity-header">
+            <div class="deity-portrait">
+                <img src="../images/portraits/dongus-portrait.jpg" alt="Dongus Peardrum" class="portrait-image">
+                <div class="watercolor-overlay watercolor-complex"></div>
+            </div>
+            <div class="deity-title-block">
+                <h1 class="deity-name">Dongus Peardrum</h1>
+                <h2 class="deity-epithet">The Dragon's Blade, The Fate Defier</h2>
+                <div class="deity-symbol-large">
+                    <img src="../images/symbols/dongus-symbol.png" alt="Dongus's Symbol">
+                </div>
+            </div>
+        </header>
+
+        <main class="deity-content">
+            <div class="content-columns">
+                <section class="main-content">
+                    <div class="deity-quote complex-quote">
+                        "Every choice has weight, every action has consequences. I was meant to be a monster, but my friends showed me a better path. Now I help others find theirs."
+                    </div>
+
+                    <div class="lore-section">
+                        <h3>The Blade That Chose Its Path</h3>
+                        <p class="drop-cap">In the shadowed alleys and bustling markets of The Greenwold's great cities, there once walked a halfling whose very existence defied the cosmic order. Dongus Peardrum was never meant to be a hero—fate, prophecy, and the whispers of proto-gods all declared him destined for darkness. Yet through the bonds of friendship and the strength of his own choices, he became something far greater: a god who proves that destiny is not immutable, that even the most feared can choose compassion over cruelty.</p>
+                        
+                        <p>Born a stout halfling in the urban sprawl, Dongus learned early that survival meant planning three moves ahead and always knowing where the exits were. His talents as a bounty hunter were matched only by his skills as an assassin—a combination that made him the most feared blade-for-hire in the known world. Those who crossed him rarely lived to tell the tale, and those who hired him never questioned whether the job would be done.</p>
+                        
+                        <p>But Dongus carried more than just mortal danger within him. The strongest draconic aspect of any of the gods flowed through his veins, connecting him to ancient powers that predated civilization itself. The Bray Mother and other proto-gods whispered in his dreams, promising power beyond imagining if he would only embrace his true nature. Every augury, every prophecy, every reading of fate pointed to the same inevitable conclusion: Dongus Peardrum would become a force of terrible evil.</p>
+                        
+                        <p>Yet prophecy failed to account for the most powerful force in any universe—friendship. When chance brought Dongus together with a group of unlikely heroes, everything changed. These companions saw past the feared assassin to the halfling beneath, past the predetermined evil to the person who could choose differently. Through their trust, their loyalty, and their unwavering belief in his capacity for good, Dongus learned that his flaws—his tendency to flee when things looked bad, his hesitancy born from being deceived, even his quiet prejudices—were not permanent chains but temporary obstacles that could be overcome.</p>
+                    </div>
+
+                    <div class="transformation-section">
+                        <h3>The Choice That Shattered Fate</h3>
+                        <p>The moment of Dongus's transformation came not in a grand gesture of heroism, but in a quiet decision to stay when every instinct told him to run. Faced with impossible odds and the lives of innocents hanging in the balance, the halfling who had spent his life planning escape routes instead chose to plant his feet and fight for something greater than his own survival.</p>
+                        
+                        <p>In that instant, cosmic fate shattered like glass. The proto-gods' whispers fell silent. The draconic power that had always threatened to consume him instead became his to command. Dongus Peardrum had done the impossible—he had looked destiny in the eye and said "no."</p>
+                        
+                        <p>His ascension to divinity was not sought but neither was it avoided. When the forces that govern reality offered him godhood, Dongus accepted it with the same practical calm he had brought to every other challenge in his life. He would be a god not because he desired power, but because the world needed someone who understood that the most important battles are fought not against external enemies, but against the darkness within ourselves.</p>
+                    </div>
+
+                    <div class="sacred-artifacts">
+                        <h3>Divine Implements</h3>
+                        
+                        <div class="artifact-card complex-artifact">
+                            <h4>The Blade of Choices</h4>
+                            <p class="artifact-type">Legendary Artifact (Requires Attunement by a creature that has overcome a significant personal flaw)</p>
+                            <p>Forged from the moment Dongus chose compassion over cruelty, this curved dagger appears deceptively simple until drawn. Its blade shifts between gleaming steel and obsidian darkness, reflecting the wielder's moral choices. The weapon's true power lies not in its lethality, but in its ability to reveal the consequences of actions before they are taken.</p>
+                            
+                            <div class="artifact-properties">
+                                <h5>Properties:</h5>
+                                <ul>
+                                    <li><strong>Foresight:</strong> Before making an attack, the wielder sees a brief vision of the consequences of that choice—will it save or doom innocents?</li>
+                                    <li><strong>Mercy Strike:</strong> The blade can deal non-lethal damage that still affects undead, constructs, and other creatures normally immune to such attacks.</li>
+                                    <li><strong>Truth Cut:</strong> Three times per day, attacks automatically detect and dispel illusions or enchantments affecting the target.</li>
+                                    <li><strong>Dragon's Precision:</strong> When fighting to protect others, the wielder's critical hit range increases and deals additional psychic damage as the target feels the weight of their own moral failures.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="artifact-card complex-artifact">
+                            <h4>The Scales of Consequence</h4>
+                            <p class="artifact-type">Legendary Artifact (Requires Attunement by a creature with Wisdom 17 or higher)</p>
+                            <p>Not physical scales but a divine sense that weighs the moral weight of actions and their ripple effects through time. This gift allows Dongus's most devoted followers to understand the true cost of their choices and guide others toward better decisions.</p>
+                            
+                            <div class="artifact-properties">
+                                <h5>Properties:</h5>
+                                <ul>
+                                    <li><strong>Moral Insight:</strong> The attuned creature can cast <em>detect thoughts</em> at will, but only to understand someone's motivations and moral reasoning.</li>
+                                    <li><strong>Consequence Vision:</strong> Once per day, see three possible outcomes of a proposed course of action, showing their moral implications.</li>
+                                    <li><strong>Redemption Path:</strong> Can cast <em>geas</em> once per week, but only to compel someone to make amends for past wrongs.</li>
+                                    <li><strong>Fate's Defiance:</strong> Three times per day, force a reroll of any die that would result in an innocent's death or significant suffering.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="artifact-card complex-artifact">
+                            <h4>The Draconic Heart</h4>
+                            <p class="artifact-type">Legendary Artifact (Requires Attunement by a creature that has defied their predetermined nature)</p>
+                            <p>The crystallized essence of Dongus's draconic aspect, this artifact pulses with barely contained tempestuous power. It represents the strength that comes from mastering one's inner dragons rather than being consumed by them.</p>
+                            
+                            <div class="artifact-properties">
+                                <h5>Properties:</h5>
+                                <ul>
+                                    <li><strong>Storm's Command:</strong> Can cast any spell from the Tempest domain once per day without expending spell slots.</li>
+                                    <li><strong>Draconic Presence:</strong> Radiates an aura that grants advantage on Intimidation checks but also on Persuasion checks when trying to protect innocents.</li>
+                                    <li><strong>Lightning Reflexes:</strong> Grants legendary resistance (3 uses per day) and the ability to take an additional reaction each round.</li>
+                                    <li><strong>Proto-God's Whisper:</strong> Once per week, can commune with the Bray Mother or other proto-gods for ancient knowledge, though the information always comes with moral complexity.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="philosophy-section">
+                        <h3>The Philosophy of Chosen Justice</h3>
+                        <p>Dongus's divine teachings center on the fundamental belief that no one is irredeemably evil, that every person has the capacity to choose differently regardless of their past or what others expect of them. His philosophy attracts those who struggle with their own darkness, who fight against their worst impulses, or who seek to make amends for past mistakes.</p>
+
+                        <div class="teaching-principles">
+                            <div class="principle-card complex-principle">
+                                <h5>The Weight of Choice</h5>
+                                <p>Every decision, no matter how small, ripples through time and affects others. Wisdom lies in understanding these consequences before acting.</p>
+                            </div>
+                            <div class="principle-card complex-principle">
+                                <h5>Friendship's Power</h5>
+                                <p>True companions see not what you are, but what you can become. Their faith gives you strength to exceed your limitations.</p>
+                            </div>
+                            <div class="principle-card complex-principle">
+                                <h5>Practical Mercy</h5>
+                                <p>Compassion without wisdom is weakness, but wisdom without compassion is cruelty. Balance both to serve justice.</p>
+                            </div>
+                            <div class="principle-card complex-principle">
+                                <h5>Defying Destiny</h5>
+                                <p>No fate is inevitable. The prophecies that damn you can be shattered by the simple act of choosing to be better.</p>
+                            </div>
+                            <div class="principle-card complex-principle">
+                                <h5>The Dragon Within</h5>
+                                <p>Everyone carries inner darkness—greed, wrath, pride. True strength comes from mastering these dragons, not being consumed by them.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="worship-section">
+                        <h3>Temples and Followers</h3>
+                        <p>Dongus's temples, known as <strong>Sanctuaries of Second Chances</strong>, are often built in the poorest districts of cities, where his message of redemption resonates most strongly. These buildings serve multiple purposes: temples for worship, safe houses for those fleeing their pasts, and training grounds where former criminals can learn to use their skills for protection rather than predation.</p>
+                        
+                        <p>The largest sanctuary stands in the undercity of Greyhaven, where a network of reformed thieves, assassins, and bounty hunters work to protect the innocent while seeking their own redemption. These temples are recognizable by their dual nature—appearing as humble halfling homes from the street, but revealing extensive underground complexes filled with training rooms, meeting halls, and sanctuaries for meditation on moral choices.</p>
+
+                        <div class="holy-days">
+                            <h4>Sacred Observances</h4>
+                            <div class="holy-day-grid">
+                                <div class="holy-day-card complex-observance">
+                                    <h5>The Night of Broken Chains</h5>
+                                    <p class="holy-day-date">Spring Equinox</p>
+                                    <p>Communities celebrate those who have overcome their predetermined paths, sharing stories of personal transformation and renewed hope.</p>
+                                </div>
+                                <div class="holy-day-card complex-observance">
+                                    <h5>The Festival of Weighted Choices</h5>
+                                    <p class="holy-day-date">Summer Solstice</p>
+                                    <p>A solemn day when followers reflect on difficult decisions made during the past year and their consequences, both intended and unforeseen.</p>
+                                </div>
+                                <div class="holy-day-card complex-observance">
+                                    <h5>The Gathering of Dragons</h5>
+                                    <p class="holy-day-date">Autumn Equinox</p>
+                                    <p>Followers confront their inner darkness in ritual combat and meditation, proving they have mastered their worst impulses.</p>
+                                </div>
+                                <div class="holy-day-card complex-observance">
+                                    <h5>The Vigil of Friendship</h5>
+                                    <p class="holy-day-date">Winter Solstice</p>
+                                    <p>The longest night is spent in fellowship, as communities share food, stories, and support to help each member resist their individual temptations.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="adventure-hooks-section">
+                        <h3>Adventure Hooks</h3>
+                        
+                        <div class="adventure-hook complex-hook">
+                            <h4>The Prophecy Unfulfilled</h4>
+                            <p>Ancient texts speak of a terrible evil that was supposed to arise but never did. Scholars have traced this "missing darkness" to the point where Dongus defied his fate. Now reality itself seems unstable in that region, and someone is trying to "correct" the timeline by forcing Dongus back onto his original dark path.</p>
+                        </div>
+
+                        <div class="adventure-hook complex-hook">
+                            <h4>The Dragon's Doubt</h4>
+                            <p>Dongus has gone silent, his temples reporting no divine contact for weeks. Investigation reveals that the Bray Mother has shown him visions of all the evil that occurred because he chose good—wars that started, tyrants who rose to power, innocents who died. The Dragon's Blade questions whether defying fate was the right choice after all.</p>
+                        </div>
+
+                        <div class="adventure-hook complex-hook">
+                            <h4>The Assassin's Guild</h4>
+                            <p>A new criminal organization has emerged, claiming to follow Dongus's "true teachings" about the necessity of death and fear. They're using corrupted versions of his symbols and teachings to justify increasingly brutal murders, forcing his genuine followers to confront these twisted mirror versions of themselves.</p>
+                        </div>
+
+                        <div class="adventure-hook complex-hook">
+                            <h4>The Second Chance</h4>
+                            <p>A legendary villain thought dead has appeared at one of Dongus's sanctuaries, claiming to seek redemption. While some followers believe in the possibility of change, others suspect this is an elaborate scheme. The characters must investigate without destroying the very trust that makes redemption possible.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <aside class="sidebar-content">
+                    <div class="stat-block complex-stat-block">
+                        <h3>Divine Portfolio</h3>
+                        <div class="stat-row">
+                            <span class="stat-label">Domains:</span>
+                            <span class="stat-value">Trickery, Knowledge, Protection, Tempest</span>
+                        </div>
+                        <div class="stat-row">
+                            <span class="stat-label">Alignment:</span>
+                            <span class="stat-value"><span class="alignment-indicator alignment-ng">Neutral Good</span></span>
+                        </div>
+                        <div class="stat-row">
+                            <span class="stat-label">Symbol:</span>
+                            <span class="stat-value">Dragon's claw gripping a curved dagger</span>
+                        </div>
+                        <div class="stat-row">
+                            <span class="stat-label">Favored Weapon:</span>
+                            <span class="stat-value">Curved Dagger, Hand Crossbow</span>
+                        </div>
+                        <div class="stat-row">
+                            <span class="stat-label">Sacred Animal:</span>
+                            <span class="stat-value">Urban Ravens (his spies and messengers)</span>
+                        </div>
+                    </div>
+
+                    <div class="worshiper-info complex-worshipers">
+                        <h4>Typical Worshipers</h4>
+                        <ul>
+                            <li>Reformed criminals seeking redemption</li>
+                            <li>Urban guards and bounty hunters</li>
+                            <li>Those fighting against their dark nature</li>
+                            <li>Investigators and information brokers</li>
+                            <li>Anyone defying expectations or prophecy</li>
+                            <li>Communities in rough city districts</li>
+                            <li>Former assassins and thieves</li>
+                        </ul>
+                    </div>
+
+                    <div class="divine-manifestations complex-manifestations">
+                        <h4>Signs of Divine Presence</h4>
+                        <ul>
+                            <li>Ravens gathering in unusual numbers</li>
+                            <li>Knives found pointing away from innocent targets</li>
+                            <li>Sudden clarity about moral consequences</li>
+                            <li>Dragon-shaped clouds during storms</li>
+                            <li>Hidden paths revealed in dangerous urban areas</li>
+                            <li>Criminals spontaneously confessing and seeking redemption</li>
+                        </ul>
+                    </div>
+
+                    <div class="prayers-rituals complex-prayers">
+                        <h4>Common Prayers</h4>
+                        
+                        <div class="prayer-block">
+                            <h5>The Morning Choice</h5>
+                            <p class="prayer-text">"Today I choose who I will be, not who I was or who others expect. Grant me wisdom to see consequences, courage to act justly, and friends to keep me honest."</p>
+                        </div>
+
+                        <div class="prayer-block">
+                            <h5>The Assassin's Restraint</h5>
+                            <p class="prayer-text">"My blade is sharp but my conscience sharper. Let me strike only when justice demands, protect only those who need protecting, and remember that every death diminishes us all."</p>
+                        </div>
+
+                        <div class="prayer-block">
+                            <h5>The Dragon's Patience</h5>
+                            <p class="prayer-text">"The storm within me need not become the storm around me. Help me master my inner dragons, that their power might serve rather than consume."</p>
+                        </div>
+                    </div>
+
+                    <div class="relationships-section complex-relationships">
+                        <h4>Divine Relationships</h4>
+                        
+                        <div class="relationship-card ally">
+                            <h5>Storth Cleartree</h5>
+                            <p class="relationship-type">Deep Alliance</p>
+                            <p>Shares commitment to hope and redemption. Storth's stories help preserve tales of those who chose differently, while Dongus provides practical wisdom for difficult choices.</p>
+                        </div>
+
+                        <div class="relationship-card ally">
+                            <h5>Enza</h5>
+                            <p class="relationship-type">Respectful Partnership</p>
+                            <p>Both understand the weight of protecting others, though Enza's oaths are external while Dongus's are internal struggles with conscience.</p>
+                        </div>
+
+                        <div class="relationship-card complex">
+                            <h5>Rekogall "The Wrecker"</h5>
+                            <p class="relationship-type">Brotherly Bond</p>
+                            <p>Share the warrior's understanding of loyalty and protection, though Dongus plans carefully while Rekogall acts on instinct.</p>
+                        </div>
+
+                        <div class="relationship-card neutral">
+                            <h5>Swennlau Hogivoathok</h5>
+                            <p class="relationship-type">Philosophical Respect</p>
+                            <p>Values the balance that Swennlau represents, though Dongus believes some choices require picking a side rather than remaining neutral.</p>
+                        </div>
+
+                        <div class="relationship-card enemy">
+                            <h5>The Silence</h5>
+                            <p class="relationship-type">Intimate Opposition</p>
+                            <p>Recognizes The Silence as what he could have become—a master assassin who chose power over conscience.</p>
+                        </div>
+                    </div>
+
+                    <div class="domain-powers">
+                        <h4>Expanded Domain Features</h4>
+                        
+                        <div class="domain-block">
+                            <h5>Trickery Domain</h5>
+                            <p>Enhanced stealth and deception abilities, but only when used to protect innocents or gather information for justice.</p>
+                        </div>
+
+                        <div class="domain-block">
+                            <h5>Knowledge Domain</h5>
+                            <p>Urban expertise, criminal underworld contacts, and the ability to discern true motivations behind actions.</p>
+                        </div>
+
+                        <div class="domain-block">
+                            <h5>Protection Domain</h5>
+                            <p>Defensive abilities that scale with the innocence of those being protected and the moral weight of the threat.</p>
+                        </div>
+
+                        <div class="domain-block">
+                            <h5>Tempest Domain</h5>
+                            <p>Storm powers that reflect inner emotional control—the calmer the cleric, the more precise their lightning.</p>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </main>
+
+        <footer class="deity-footer">
+            <nav class="deity-navigation">
+                <a href="empyrean.html" class="nav-link prev">&larr; Previous: The Empyrean</a>
+                <a href="../index.html" class="nav-link home">Return to Pantheon</a>
+                <a href="enza.html" class="nav-link next">Next: Enza &rarr;</a>
+            </nav>
+        </footer>
+    </div>
+</body>
+</html>
